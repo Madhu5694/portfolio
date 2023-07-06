@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <!--box icons-->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="port.css" />
+</head>
+
+<body>
+  <!--header design-->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!--home section-->
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello It's Me</h3>
+      <h1>Madhu</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>
+        Hi I'm Madhu, and I am a web developer currently pursuing my B.Tech degree. I have knowledge and experience in
+        various programming languages and technologies. In terms of web development, I am proficient in HTML, CSS, and
+        JavaScript. I also have experience in back-end development using Java and Python, as well as working with
+        databases using SQL. Additionally, I have knowledge of machine learning concepts and frameworks, including React
+        for front-end development. Currently, I am focusing on expanding my skills in Node.js.
+        <br />
+        Feel free to connect with me on my social media handles
+      </p>
+
+      <div class="social-media">
+        <a href="https://github.com/Madhu5694"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/madhu-baliyan-71a794238/"><i class="bx bxl-linkedin-square"></i></a>
+      </div>
+      <a href="https://drive.google.com/file/d/1a2GUNqaOPuUos27ONqKdmAsAr112D1nx/view?usp=sharing" class="btn">Download
+        resume</a>
+    </div>
+
+    <div class="home-img">
+      <img src="image1.png" height="400px" width="280px" alt="" />
+    </div>
+  </section>
+
+  <!--about section-->
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="image2.jpg" height="380px" width="280px" alt="" />
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Web Developer</h3>
+      <p>
+        A web developer currently pursuing my B.Tech degree. I possess a wide range of knowledge and experience in
+        various programming languages and technologies. Specifically, in the field of web development, I am proficient
+        in HTML, CSS, and JavaScript. I also have hands-on experience in back-end development using Java and Python,
+        along with working with databases using SQL.
+
+        In addition to web development, I have a solid understanding of machine learning concepts and frameworks.
+        Moreover, I am proficient in React, a popular front-end development framework. I have achieved a 5-star rating
+        in Java on HackerRank and have successfully solved multiple Data Structures and Algorithms (DSA) questions on
+        platforms like LeetCode.
+
+        Furthermore, I am well-versed in utilizing development tools such as Jupyter and Eclipse, which are widely used
+        in the industry. These tools aid in efficient coding and provide useful features for software development.
+      </p>
+    </div>
+  </section>
+
+  <!--portfolio section -->
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="project1.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Weather Application</h4>
+          <p>
+            The Weather Application is a user-friendly and visually appealing
+            web application designed to provide weather information
+            for different locations. Built using HTML, CSS, and JavaScript,
+            this application enables users to easily access accurate weather
+
+          </p>
+          <a href="https://github.com/Madhu5694/Weather_App.git"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="project2.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Travel and Tour Website</h4>
+          <p>In the era of digital advancements, travel and tourism have become increasingly intertwined with
+            technology. One shining example is the creation of a dynamic travel and tour website developed using React,
+            a popular JavaScript library, and APIs</p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="project3.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>Project is in construction</h4>
+          <p>Coming soon</p>
+          <a href="#"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--contact section-->
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" />
+        <input type="text" placeholder="Email substitute" />
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </section>
+
+  <!--footer -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2023 by Madhu | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!--scroll reveal-->
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--typed js-->
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script src="port.js"></script>
+</body>
+
+</html>
